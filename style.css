@@ -1,0 +1,167 @@
+*
+
+{
+    margin:0px;
+    padding:0px;
+}
+
+.parent
+{
+    height: 100vh;
+    width: 100vw;
+    background-color:aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+
+}
+
+.child
+{
+    height: 300px;
+    width: 500px;
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    
+}
+.profile
+{
+    height: 200px;
+    width: 200px;
+    background-color:blanchedalmond;
+    border-radius: 50%;
+    overflow: hidden;
+    row-gap: 20px;
+    
+   
+    
+}
+.pro_img
+{
+    width: 200px;
+  
+    
+    
+}
+.f1
+{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    padding-top: 10px;
+}
+.f2
+{
+    font-family:monospace;
+    font-size: 15px;
+}
+
+
+.page1
+{
+    width: 100%;
+    height: 100%;
+    background-color: antiquewhite;
+    padding: 50px 10%;
+   
+}
+
+
+
+.parent1
+{
+    height: 100vh;
+    width:100vw;
+    
+    background-color:rgb(220, 179, 45);
+     display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+    row-gap: 10px;
+    border-radius: 20px;
+
+}  
+
+.f3
+{ 
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    
+} 
+
+
+.child1
+{
+    width: 620px;
+    background-color: white;
+    display: flex;
+    padding: 40px;
+    border-radius: 10px;
+    column-gap: 10px;
+    
+    
+
+   
+    
+   
+   
+    
+    
+}
+.box1{
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+    
+}
+.back_1
+{
+    width: 200px;
+   background-size: cover;
+   background-position: center;
+}
+.box2{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(101, 42, 165);
+  
+}
+.back_2
+{
+    width: 200px;
+   background-size: cover;
+   background-position: center;
+}
+.box3{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(41, 172, 43);
+}
+.back_3
+{
+    width: 200px;
+   background-size: cover;
+   background-position: center;
+   
+   
+}
+ h2.sub{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: smaller;
+    
+    color: black;
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+   
+    
+}
+h2.sub:hover{
+    
+    opacity: 0.8;
+} 
